@@ -1,4 +1,4 @@
-import 'package:chat_app/models/ChatMessage.dart';
+import 'package:chat_app/models/chat_message.dart';
 import 'package:flutter/material.dart';
 
 import '../../../constants.dart';
@@ -23,7 +23,7 @@ class Message extends StatelessWidget {
         case ChatMessageType.audio:
           return AudioMessage(message: message);
         case ChatMessageType.video:
-          return VideoMessage();
+          return const VideoMessage();
         default:
           return const SizedBox();
       }

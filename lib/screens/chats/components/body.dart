@@ -1,12 +1,14 @@
-import 'package:chat_app/components/filled_outline_button.dart';
+import 'package:chat_app/widget/filled_outline_button.dart';
 import 'package:chat_app/constants.dart';
-import 'package:chat_app/models/Chat.dart';
+import 'package:chat_app/models/chat.dart';
 import 'package:chat_app/screens/messages/message_screen.dart';
 import 'package:flutter/material.dart';
 
 import 'chat_card.dart';
 
 class Body extends StatelessWidget {
+  const Body({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Column(
