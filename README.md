@@ -7,5 +7,5 @@
   flutter, gun js 
 
 # main feature
-  chat, call p2p, video call p2p, scan around, icon genarator
+  chat, call p2p, video call p2p, scan around, icon generator
 
